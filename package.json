@@ -1,0 +1,11 @@
+{
+  "name": "medflow-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix medflow",
+    "build": "npm run build --prefix medflow",
+    "start": "npm run start --prefix medflow",
+    "lint": "npm run lint --prefix medflow",
+    "install": "cd medflow && npm install"
+  }
+}
